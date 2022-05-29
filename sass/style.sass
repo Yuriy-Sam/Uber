@@ -1,0 +1,439 @@
+
+$colorRed: #FF5656
+$colorBlue: #1EACC7
+    
+    
+*
+    font-family: 'Roboto', sans-serif
+    a
+        text-decoration: none
+
+header
+    position: relative
+
+nav
+    width: 100%
+
+    position: fixed
+    height: 50px
+    background: #212121
+    z-index: 5
+
+
+
+.btn
+    width: 172px;
+    height: 46px;
+    border: none
+    background: linear-gradient(0deg, #1EACC7 0%, #4CE2FF 100%);
+    box-shadow: inset 0px -3px 0px rgba(0, 0, 0, 0.12);
+    border-radius: 4px;
+    font-weight: 400;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.21);
+    margin-top: 19px
+
+.lable 
+    // position: absolute
+    // left: 50%;
+    // transform: translateX(-50%,); 
+    text-align: center;
+    margin: 0 auto
+    font-weight: 400;
+    font-size: 11px;
+    width: 112px;
+    height: 24px
+
+    text-transform: uppercase;
+    color: #FFFFFF;
+    background: #000
+    padding: 5px 10px
+.title
+    margin-bottom: 0
+    text-align: center
+    margin-top: 30px
+    font-weight: 700;
+    font-size: 38px;
+    text-transform: uppercase;
+    color: #222222;
+.descr
+    font-weight: 400;
+    font-size: 17px;
+    text-align: center;
+    color: #222222;
+
+.circle
+    width: 116px;
+    height: 116px;
+    border-radius: 100%
+    background: $colorBlue
+    display: flex
+    justify-content: center
+    align-items: center
+
+
+        
+.menu
+    display: flex
+    justify-content: space-between
+    padding: 13px 70px
+    margin: 0
+    list-style-type: none
+    &_item
+        border-right: 2px dotted #000000
+        padding-right: 28px
+    &_link
+        text-decoration: none
+        font-weight: 300;
+        font-size: 15px;
+        color: #FFFFFF;
+
+
+.subheader
+    display: block
+    position: absolute
+    top: 50px
+    width: 100%    
+    height: 87px
+    background: rgba(0,0,0, .6)
+    &_logo
+        display: block
+        margin-top: 19px
+    &_text
+        font-weight: 100;
+        font-size: 13px;
+        color: #FFFFFF;
+        opacity: 0.6
+    &_call
+        font-weight: 300;
+        font-size: 12px;
+        color: #FFFFFF;
+        margin-top: 19px
+        text-align: right;
+
+    &_tel
+        display: block
+        text-align: right;
+        font-weight: 400;
+        font-size: 22px;
+        line-height: 25px;
+        text-transform: uppercase;
+        color: #FFFFFF;
+        text-decoration: none
+    // &_btn
+        // width: 172px;
+        // height: 46px;
+        // border: none
+        // background: linear-gradient(0deg, #1EACC7 0%, #4CE2FF 100%);
+        // box-shadow: inset 0px -3px 0px rgba(0, 0, 0, 0.12);
+        // border-radius: 4px;
+        // font-weight: 400;
+        // font-size: 14px;
+        // text-transform: uppercase;
+        // color: #FFFFFF;
+        // text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.21);
+        // margin-top: 19px
+
+.promo
+    padding-top: 50px
+    min-height: 800px
+    background: url('../img/uber_bg1.jpg') center center/cover no-repeat
+    &_hearder
+        margin: 0
+        margin-top: 150px
+        font-weight: 900;
+        font-size: 60px;
+        text-align: center;
+        text-transform: uppercase;
+        color: #FFFFFF;
+    &_subhearder
+        font-weight: 700;
+        font-size: 36px;
+        text-align: center;
+        text-transform: uppercase;
+        color: #FFFFFF;
+    &_descr
+        margin-top: 15px
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 24px;
+        text-align: center;
+        color: #FFFFFF;
+    &_btn
+
+        display: block
+        margin: 0 auto
+        width: 259px;
+        height: 63px;
+        font-size: 18px;
+        margin-top: 115px
+
+
+
+.benefits
+    min-height: 850px
+    padding: 20px 0 60px 0
+    &_item
+        display: flex
+        justify-content: center
+        align-items: center
+        &_circle
+
+            // width: 116px;
+            // height: 116px;
+            // border-radius: 100%
+            // background: #1EACC7;
+            // display: flex
+            // justify-content: center
+            // align-items: center
+            // margin: 0 auto
+        &_text
+            min-height: 150px
+            margin: 0 35px
+
+            margin-top: 20px
+            width: 370px
+            &_title
+                font-weight: 400;
+                font-size: 17px;
+                line-height: 21px;
+                color: $colorBlue
+            &_subtext
+                font-weight: 300;
+                font-size: 15px;
+                line-height: 21px;
+
+
+
+
+.mobile
+    padding: 48px 0 80px 0
+    height: 860px
+    background: url('../img/mobile_bg.jpg') center center/cover no-repeat
+    &_item
+        position: relative
+        display: block
+        margin-top: 20px
+        padding: 88px 11px 34px 11px
+        width: 320px;
+        min-height: 280px;
+        &_1
+            background: url('../img/carts/cart1.jpg') center center/cover no-repeat
+        &_2
+            background: url('../img/carts/cart2.jpg') center center/cover no-repeat
+        &_3
+            background: url('../img/carts/cart3.jpg') center center/cover no-repeat
+        &_4
+            background: url('../img/carts/cart4.jpg') center center/cover no-repeat
+        &_5
+            background: url('../img/carts/cart5.jpg') center center/cover no-repeat
+        &_6
+            background: url('../img/carts/cart6.jpg') center center/cover no-repeat
+
+        &_title
+            font-weight: 400;
+            font-size: 24px;
+            line-height: 31px;
+            text-align: center;
+            text-transform: uppercase;
+            color: #ffffff;
+        &_circle
+            position: absolute
+            bottom: 34px
+            left: 50%;
+            transform: translateX(-50%,); 
+            margin: 0 auto
+            background: #000000;
+            width: 29px
+            height: 29px
+            text-decoration: none
+            color: $colorBlue
+            font-weight: 900
+            font-size: 25px;
+            transition: 0.5s all
+
+
+            &:hover
+                color: $colorRed
+
+        // &_plus
+
+    
+
+
+
+.auto
+    padding: 57px 0 0 0
+    position: relative
+    text-align: center
+    min-height: 900px
+    background: #070716 url("../img/afterAuto_bg.jpg") center bottom no-repeat
+
+
+    &_lable
+        background: #fff
+        color: #000
+    &_title
+        color: #fff
+    &_descr
+        color: #fff
+
+    &_img
+        margin-top: 54px
+    &_subtext
+        font-weight: 300;
+        font-size: 17px;
+        line-height: 24px;
+        text-align: center;
+        color: #222222;
+
+
+
+
+
+.require
+    padding: 68px 0 84px 0
+    &_block
+        width: 500px
+        margin: 33px 0
+        &_nbm
+            margin-bottom: 0
+    &_title
+        font-weight: 400;
+        font-size: 22px;
+        color: $colorBlue
+    &_list
+        list-style-type: none
+        padding-left: 50px
+        margin-top: 20px
+        li
+            // display: inline-block
+            position: relative
+
+            margin-bottom: 5px
+            font-weight: 300;
+            font-size: 17px;
+            color: #222222;
+            &:before
+                position: absolute
+                left: -32px
+                top: 3px
+                content: ''
+                display: block
+                width: 21px
+                height: 20px
+                background: url('../icons/check_blue.svg')
+    &_descr
+        font-weight: 300;
+        font-size: 17px;
+        color: $colorBlue
+    .warning
+        .require_title
+            color: $colorRed
+        .require_list
+            li
+                &:before     
+                    background: url('../icons/check_red.svg')
+
+
+
+.world
+    position: relative
+    text-align: center
+    min-height: 720px
+    padding: 50px 0 20px 0
+    background: #080810 url("../img/world_bg.jpg") center center no-repeat ;
+    &_lable
+        width: 76px;
+        background: #fff
+        color: #000
+    &_title
+        color: #fff
+    &_descr
+        color: #fff
+    &_link
+        position: absolute
+        text-decoration: none
+        bottom: 40px
+        left: 50%
+        transform: translateX(-50%)
+
+        font-weight: 400;
+        font-size: 15px;
+        text-align: center;
+        text-transform: uppercase;
+
+        color: $colorBlue;
+
+
+
+
+
+.footer
+    padding: 50px 20px
+	&_divider
+		width: 299px
+		height: 4px
+		background-color: #1fbad6
+		margin: 0 auto
+	&_wrapper
+        padding-top: 32px
+
+		display: flex 
+		justify-content: space-between
+		align-items: flex-start
+        
+	&_wrapper > div 
+		width: 33%
+		&:nth-child(3)
+			display: flex 
+			justify-content: flex-end
+	&_social
+		width: 160px
+		display: flex
+		justify-content: space-between
+		&_item 
+			display: flex 
+			justify-content: center
+			align-items: center
+			margin: 0 4px 
+			width: 32px
+			height: 32px
+			background-color: #070716
+			border-radius: 100%
+			i 
+				color: #fff
+	&_links
+		width: 390px
+		margin: 0 auto
+		&_main 
+			display: flex 
+			justify-content: space-between
+			padding: 0 10px
+			a 
+				color: #070716
+				font-size: 15px
+				font-weight: 300
+				text-transform: uppercase
+		&_sub 
+			display: flex 
+			justify-content: space-between
+			margin-top: 10px
+			a 
+				color: #999999
+				font-size: 11px
+				font-weight: 300
+				text-transform: uppercase
+		&_lang 
+			display: block 
+			margin: 0 auto
+			color: #1fbad6
+			font-size: 11px
+			font-weight: 400
+			margin-top: 19px
+			text-transform: uppercase
+			text-align: center
+
+	// &_mobile
